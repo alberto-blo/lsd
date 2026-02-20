@@ -121,7 +121,7 @@ In order to tailor `lsd` to your specific needs you can create any of the follow
 2. `colors.yaml` → [colors sample file here](./doc/samples/colors-sample.yaml)
 3. `icons.yaml` → [icons sample file here](./doc/samples/icons-sample.yaml)
 
-Note that it is _not_ required to have all three of the files present in order for your configuration to be applied. For example, if you [only want to customize the icons](#customization-example) then only [`icons.yaml`](./doc/icons-sample.yaml) needs to be present in the [configuration directory](#config-file-locations); [`config.yaml`](./doc/config-sample.yaml), and [`colors.yaml`](./doc/colors-sample.yaml) do not have to be present in order for your icon modifications to be applied.
+Note that it is _not_ required to have all three of the files present in order for your configuration to be applied. For example, if you [only want to customize the icons](#customization-example) then only [`icons.yaml`](./doc/samples/icons-sample.yaml) needs to be present in the [configuration directory](#config-file-locations); [`config.yaml`](./doc/samples/config-sample.yaml), and [`colors.yaml`](./doc/samples/colors-sample.yaml) do not have to be present in order for your icon modifications to be applied.
 
 ### Config file locations
 > [!TIP]
@@ -155,7 +155,7 @@ There are 3 kinds of icon overrides available in `lsd`:
 Both nerd font glyphs and Unicode emojis can be used for icons. The final set of icons that `lsd` will use is a combination of the [default icons](./src/theme/icon.rs) with the custom icons you’ve set in the `icons.yaml` file.
 
 > [!NOTE]
-> Aside from the [icon sample file](./doc/icons-sample.yaml), you can also find the default icon set in the source code [here](src/theme/icon.rs).
+> Aside from the [icon sample file](./doc/samples/icons-sample.yaml), you can also find the default icon set in the source code [here](src/theme/icon.rs).
 
 A short example for each type of the icon overrides is shown below.
 
